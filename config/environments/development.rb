@@ -41,6 +41,6 @@
   
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'twitter-dai110.c9users.io:8080'
+  host = 'twitter-dai110.c9users.io'
   config.action_mailer.default_url_options = { host: host } 
 end
